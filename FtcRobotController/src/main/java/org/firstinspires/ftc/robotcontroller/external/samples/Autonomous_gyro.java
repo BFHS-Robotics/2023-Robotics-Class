@@ -210,6 +210,7 @@ public class Autonomous_gyro extends LinearOpMode {
 
         closeClaw(runtime.milliseconds());
 
+
         driveStraight(DRIVE_SPEED, 28.0, 0.0);
 
         turnToHeading(TURN_SPEED, -90);
